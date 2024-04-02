@@ -214,7 +214,7 @@ Percobaan kali ini praktikan diminta untuk mencari username dan password yang be
 
 ![image](./images/creds_1.png)
 
-2. Didapat bahwa username dan password tersebut berhasil melakukan login.
+2. Didapat bahwa username dan password tersebut berhasil melakukan login. <br>
 ![image](./images/creds_2.png)
 
 3. Oleh karena itu, jawaban tersebut dimasukkan oleh pratikan ke dalam pertanyaan berikut
