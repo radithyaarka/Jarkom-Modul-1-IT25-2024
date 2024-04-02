@@ -261,7 +261,7 @@ Percobaan kali ini praktikan diminta untuk mencari siapa nama hacker tersebut
 
 1. Pada wireshark, klik File -> Export Objects -> FTP-DATA...
 2. Terdapat 2 file, yaitu m4L1c10us_W4re.c dan mirza.jpg. Kita pilih file m4L1c10us_W4re.c untuk didownload
-3. File yang dibuka akan tampil seperti ini
+3. File yang dibuka akan tampil seperti ini <br>
 ![image](./images/whoami_1.png)
 4. String tersebut kemudian didecode dan menghasilkan output "Hello my name is Paul Atreides". Oleh karena itu, Paul Atreides adalah nama dari hacker tersebut
 ![image](./images/whoami_2.png)
