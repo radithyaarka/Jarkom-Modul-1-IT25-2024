@@ -1,4 +1,4 @@
-![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/462ea9b7-021b-4207-bf99-5d7843822675)# Laporan-Resmi-Jarkom-Modul-1-IT25-2024
+# Laporan-Resmi-Jarkom-Modul-1-IT25-2024
 
 ## Anggota
 
