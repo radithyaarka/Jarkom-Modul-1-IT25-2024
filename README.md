@@ -295,7 +295,26 @@ Congrats! Flag: JARKOM2024{Duk3_0f_4rak!s_LISAN AL GHAIB!_ITwkRzxflRFH8rq}
 5. Download dan buka file .dll tersebut
 ![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/ff436108-d89a-4cac-b4b5-ecf22ff9963d)
 
-6. blom tau lanjutannya
+6. Soal meminta untuk mendapatkan SHA-256 hash dari malware yang dimaksud (invest_20.dll), maka perlu dilakukan decrypt SHA-256, disini saya menggunakan terminal kali dengan command
+```
+shasum -a 256 invest_20.dll
+```
+![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/b8a3c2a9-0b69-407d-9279-9ff9fdfba44c)
+
+lalu submit pada netcat
+
+```
+nc 10.15.40.20 10003
+Jawab pertanyaan-pertanyaan yang telah disediakan:
+
+No 1:
+Pertanyaan: Apa SHA-256 hash dari malware yang dimaksud?
+Format: sha256 hash: e.g. c8cf761b68c5f693e5cf2d23acdcca1c0295c1f739805d60df46e54e37ada3da
+Jawaban: 31cf42b2a7c5c558f44cfc67684cc344c17d4946d3a1e0b2cecb8eb58173cb2f
+Correct
+
+Congrats! Flag: JARKOM2024{wow_how_u_solve_this_I6CRP7pfi6dsRAq}
+```
 
 
 
