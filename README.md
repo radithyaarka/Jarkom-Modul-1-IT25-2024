@@ -210,7 +210,7 @@ Congrats! Flag: JARKOM2024{c0unT_uR_P4cket5_xhCkY7xfl1VtR8Y}
 
 ## >> Creds
 
-Percobaan kali ini praktikan diminta untuk mencari username dan password dari salah satu packets yang tersedia.
+Percobaan kali ini praktikan diminta untuk mencari username dan password yang berhasil dibobol oleh hacker dari salah satu packets yang tersedia.
 
 ![image](./images/creds_1.png)
 
@@ -235,6 +235,50 @@ Correct
 
 Congrats! Flag: JARKOM2024{s3curE_uR_FtP_I6wRYbnyQ1koR89}
 ```
+
+## >> Malwleowleo
+
+Percobaan kali ini praktikan diminta untuk mencari file malware yang dikirim oleh hacker
+
+Terlihat bahwa terdapat 1 file bernama m4L1c10us_W4re.c
+![image](./images/malwleowleo_1.png)
+
+```
+Jawab pertanyaan-pertanyaan yang telah disediakan:
+
+No 8:
+Pertanyaan: Apa nama malware yang dikirim oleh attacker ke korban?
+Format: strings
+Jawaban: m4L1c10us_W4re.c
+Correct
+
+Congrats! Flag: JARKOM2024{beC4refUl_0f_m4lwAr3_u6wkvbAHQ1JtR8q}
+```
+
+## >> whoami
+
+Percobaan kali ini praktikan diminta untuk mencari siapa nama hacker tersebut
+
+1. Pada wireshark, klik File -> Export Objects -> FTP-DATA...
+2. Terdapat 2 file, yaitu m4L1c10us_W4re.c dan mirza.jpg. Kita pilih file m4L1c10us_W4re.c untuk didownload
+3. File yang dibuka akan tampil seperti ini
+![image](./images/whoami_1.png)
+4. String tersebut kemudian didecode dan menghasilkan output "Hello my name is Paul Atreides". Oleh karena itu, Paul Atreides adalah nama dari hacker tersebut
+![image](./images/whoami_2.png)
+
+```
+Jawab pertanyaan-pertanyaan yang telah disediakan:
+
+No 9:
+Pertanyaan: Siapa nama attacker yang sudah melakukan serangan ini?
+Format: FirstName_LastName
+Jawaban: Paul_Atreides
+Correct
+
+Congrats! Flag: JARKOM2024{Duk3_0f_4rak!s_LISAN AL GHAIB!_ITwkRzxflRFH8rq}
+```
+
+
 
 
 
