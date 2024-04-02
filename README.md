@@ -208,6 +208,33 @@ Correct
 Congrats! Flag: JARKOM2024{c0unT_uR_P4cket5_xhCkY7xfl1VtR8Y}
 ```
 
+## >> Creds
+
+Percobaan kali ini praktikan diminta untuk mencari username dan password dari salah satu packets yang tersedia.
+
+![image](./images/creds_1.png)
+
+2. Didapat bahwa username dan password tersebut berhasil melakukan login.
+![image](./images/creds_2.png)
+
+3. Oleh karena itu, jawaban tersebut dimasukkan oleh pratikan ke dalam pertanyaan berikut
+```
+Jawab pertanyaan-pertanyaan yang telah disediakan:
+
+No 1:
+Pertanyaan: Apa Username FTP yang digunakan oleh attacker?
+Format: USER:username
+Jawaban: USER:h3ngk3rTzy
+Correct
+
+No 2:
+Pertanyaan: Apa Password FTP yang digunakan oleh attacker?
+Format: PASS:password
+Jawaban: PASS:S!l3ncE
+Correct
+
+Congrats! Flag: JARKOM2024{s3curE_uR_FtP_I6wRYbnyQ1koR89}
+```
 
 
 
