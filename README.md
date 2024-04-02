@@ -1,4 +1,4 @@
-# Laporan-Resmi-Jarkom-Modul-1-IT25-2024
+![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/462ea9b7-021b-4207-bf99-5d7843822675)# Laporan-Resmi-Jarkom-Modul-1-IT25-2024
 
 ## Anggota
 
@@ -277,6 +277,25 @@ Correct
 
 Congrats! Flag: JARKOM2024{Duk3_0f_4rak!s_LISAN AL GHAIB!_ITwkRzxflRFH8rq}
 ```
+
+## >> Malwaew
+1. Karena ketika digunakan filter http, tidak ada packet yang muncul. Maka perlu dilakukan decrypt TLS untuk melihat seluruh komunikasi data yang ada.
+![Screenshot 2024-04-02 210205](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/971ee302-b8c7-4090-9851-89cbe9bc52fc)
+![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/cefc2e50-c7e4-4227-9be0-49d4f262b56c)
+
+2. Lakukan decrypt TLS dengan menggunakan keylog file yang telah diberikan. Decrypt TLS dapat dilakukan dengan Edit -> Preference
+![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/2f36e8a4-5a6f-477b-859d-79ed49383217)
+
+3 Pada Preferences, dapat dilihat pada bagian Protocol -> TLS, lalu kita dapat memasukkan `keylog.txt` yang telah diberikan pada (Pre)-Master-Secret log filename
+![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/1c16a62a-1f59-46c4-8083-c0aef528e689)
+
+4. Setelah itu, kita dapat menggunakan filter `http` untuk melihat  POST atau GET. Terdapat 1 file dengan ekstensi .dll yang dimana merupakan executable file dan bisa ditanami malware
+![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/b65e0727-c1a1-4d06-ba28-ddafabe4770e)
+
+5. Download dan buka file .dll tersebut
+![image](https://github.com/radithyaarka/Jarkom-Modul-1-IT25-2024/assets/143694651/ff436108-d89a-4cac-b4b5-ecf22ff9963d)
+
+6. blom tau lanjutannya
 
 
 
