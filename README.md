@@ -192,7 +192,7 @@ Pada percobaan kali ini praktikan diminta untuk mengetahui berapa kali hacker me
 1. Pada kolom filter ketik ftp.request.command == "PASS"
 ![image](./images/howManyPackets_1.png)
 
-2. Setelah itu klik Statistics -> Capture File Properties untuk mengetahui nilai packets yang didapat. Tertulis bahwa sebanyak 934 kali hacker melakukan serangan bruteforce
+2. Setelah itu klik Statistics -> Capture File Properties untuk mengetahui nilai packets yang didapat. Tertulis bahwa sebanyak 934 kali hacker melakukan serangan bruteforce <br>
 ![image](./images/howManyPackets_2.png)
 
 3. Angka 934 dimasukkan ke dalam kolom jawaban dan flag tersebut didapatkan
