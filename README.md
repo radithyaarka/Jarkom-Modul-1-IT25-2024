@@ -158,10 +158,13 @@ Congrats! Flag: JARKOM2024{s3m4ng4t_ya_<3_9hwkXzAHizdtk4t}
 
 Pada percobaan kali ini praktikan diminta untuk mengetahui password mana yang berhasil dibobol oleh hacker untuk melakukan serangan login.
 
-1. Klik ctrl + F
-2. Ubah display filter menjadi string
-3. Ketik successful, lalu Enter
-4. Muncul paket dengan status response Login successful, lalu klik kanan -> follow -> TCP stream
+1. Ketik ftp contains "Login successful" pada kolom filter
+![image](./images/ftp_1.png)
+
+2. Tekan Enter
+3. Muncul paket dengan status response Login successful, lalu klik kanan -> follow -> TCP stream
+
+
 
 ```
 220 Welcome Alpine ftp server https://hub.docker.com/r/delfer/alpine-ftp-server/
@@ -212,12 +215,16 @@ Congrats! Flag: JARKOM2024{c0unT_uR_P4cket5_xhCkY7xfl1VtR8Y}
 
 Percobaan kali ini praktikan diminta untuk mencari username dan password yang berhasil dibobol oleh hacker dari salah satu packets yang tersedia.
 
+1. Ketik ftp contains "Login successful" pada kolom filter
+![image](./images/creds_3.png)
+
+2. Muncul paket dengan status response Login successful, lalu klik kanan -> follow -> TCP stream
 ![image](./images/creds_1.png)
 
-2. Didapat bahwa username dan password tersebut berhasil melakukan login.
+3. Didapat bahwa username dan password tersebut berhasil melakukan login.
 ![image](./images/creds_2.png)
 
-3. Oleh karena itu, jawaban tersebut dimasukkan oleh pratikan ke dalam pertanyaan berikut
+4. Oleh karena itu, jawaban tersebut dimasukkan oleh pratikan ke dalam pertanyaan berikut
 ```
 Jawab pertanyaan-pertanyaan yang telah disediakan:
 
@@ -240,7 +247,12 @@ Congrats! Flag: JARKOM2024{s3curE_uR_FtP_I6wRYbnyQ1koR89}
 
 Percobaan kali ini praktikan diminta untuk mencari file malware yang dikirim oleh hacker
 
-Terlihat bahwa terdapat 1 file bernama m4L1c10us_W4re.c
+1. Ketik ftp contains "send" pada kolom filter
+![image](./images/malwleowleo_2.png)
+
+2. Muncul paket dengan status response "Ok to send data", lalu klik kanan -> follow -> TCP stream
+
+3. Terlihat bahwa terdapat 1 file bernama m4L1c10us_W4re.c
 ![image](./images/malwleowleo_1.png)
 
 ```
@@ -257,7 +269,7 @@ Congrats! Flag: JARKOM2024{beC4refUl_0f_m4lwAr3_u6wkvbAHQ1JtR8q}
 
 ## >> whoami
 
-Percobaan kali ini praktikan diminta untuk mencari siapa nama hacker tersebut
+Pada percobaan kali ini, praktikan diminta untuk mencari tahu siapa nama hacker tersebut.
 
 1. Pada wireshark, klik File -> Export Objects -> FTP-DATA...
 2. Terdapat 2 file, yaitu m4L1c10us_W4re.c dan mirza.jpg. Kita pilih file m4L1c10us_W4re.c untuk didownload
@@ -265,7 +277,6 @@ Percobaan kali ini praktikan diminta untuk mencari siapa nama hacker tersebut
 ![image](./images/whoami_1.png)
 4. String tersebut kemudian didecode dan menghasilkan output "Hello my name is Paul Atreides". Oleh karena itu, Paul Atreides adalah nama dari hacker tersebut
 ![image](./images/whoami_2.png)
-
 ```
 Jawab pertanyaan-pertanyaan yang telah disediakan:
 
